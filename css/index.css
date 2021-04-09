@@ -172,27 +172,73 @@ footer nav a {
 .container-about-page {
     width: 800px;
     margin: 0 auto;
-    display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .about {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-bottom: 1px dashed black;
+    padding-bottom: 20px;
 }
 
 
 
-/*.strategy {
+.top {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    width: 800px;
+    justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 10%;
     border-bottom: 1px dashed black;
-    
+    padding-bottom: 20px;
+}
+
+
+.top .content .b {
+    border: solid black;
+    border-radius: 25%;
+    width:30%;
+    padding: 4%;
+    margin: 1%;
+}
+
+.top .content h2 {
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.bottom {
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 10%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+.bottom .content .b {
+    border: solid black;
+    border-radius: 25%;
+    width:30%;
+    padding: 4%;
+    margin: 1%;
+}
+
+.bottom .content h2 {
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.together h2 {
+    margin-top: 2%;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.together p {
+    padding 1%;
+    margin-bottom: 4%;
 }
 
