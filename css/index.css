@@ -175,6 +175,7 @@ p {
 .box10 {
     background-color: dodgerblue;
 }
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -229,17 +230,22 @@ footer nav a {
     justify-content: space-evenly;
     margin-bottom: 20px;
     margin-top: 10%;
-    border-bottom: 1px dashed black;
     padding-bottom: 20px;
 }
 
+.top .content {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    width: 48%;
+}
 
 .top .content .b {
     border: solid black;
-    border-radius: 25%;
+    border-radius: 15%;
     width:30%;
-    padding: 4%;
+    padding: 2%;
     margin: 1%;
+    text-align: center;
 }
 
 .top .content h2 {
@@ -253,16 +259,22 @@ footer nav a {
     justify-content: space-evenly;
     margin-bottom: 20px;
     margin-top: 10%;
+    padding-bottom: 20px;
+}
+
+.bottom .content {
     border-bottom: 1px dashed black;
     padding-bottom: 20px;
+    width: 48%;
 }
 
 .bottom .content .b {
     border: solid black;
-    border-radius: 25%;
+    border-radius: 15%;
     width:30%;
-    padding: 4%;
+    padding: 2%;
     margin: 1%;
+    text-align: center;
 }
 
 .bottom .content h2 {
