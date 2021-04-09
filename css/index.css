@@ -56,6 +56,30 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+.head-section {
+    width: 1000px;
+    margin: 0 auto;    
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top: 2%;
+}
+
+.logo a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.cover-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -104,12 +128,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /*background-color: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2{
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 { 
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +208,88 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+
+
+.top {
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 10%;
+    padding-bottom: 20px;
+}
+
+.top .content {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    width: 48%;
+}
+
+.top .content .b {
+    border: solid black;
+    border-radius: 15%;
+    width:30%;
+    padding: 2%;
+    margin: 1%;
+    text-align: center;
+}
+
+.top .content h2 {
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.bottom {
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 10%;
+    padding-bottom: 20px;
+}
+
+.bottom .content {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    width: 48%;
+}
+
+.bottom .content .b {
+    border: solid black;
+    border-radius: 15%;
+    width:30%;
+    padding: 2%;
+    margin: 1%;
+    text-align: center;
+}
+
+.bottom .content h2 {
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.together h2 {
+    margin-top: 2%;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.together p {
+    padding 1%;
+    margin-bottom: 4%;
+}
+
