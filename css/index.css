@@ -56,6 +56,30 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+.head-section {
+    width: 1000px;
+    margin: 0 auto;    
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top: 2%;
+}
+
+.logo a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.cover-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -144,3 +168,31 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+
+
+/*.strategy {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    
+}
+
